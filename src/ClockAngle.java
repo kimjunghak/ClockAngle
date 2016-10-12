@@ -23,10 +23,8 @@ public class ClockAngle {
         else
             angle = minuteAngle - hourAngle;
 
-        if(angle > 180) {
-            angle = angle - 180;
-            return angle;
-        }
+        if(angle > 180)
+            return 360 - angle;
 
         return angle;
     }

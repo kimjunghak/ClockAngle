@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * Created by kjh on 16. 10. 11.
  */
-public class Test {
+public class TestClock {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
 
