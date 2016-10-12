@@ -13,5 +13,6 @@ public class TestFloor {
         int num = scan.nextInt();
 
         f.floor(num);
+        f.floorBinary(num);
     }
 }
