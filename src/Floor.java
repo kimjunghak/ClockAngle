@@ -22,7 +22,7 @@ public class Floor {
 
     public int floorBinary(int num){
         int indices = 1;
-        long under = 2;
+        double under = 2;
         int count = 0;
 
         while(under <= num){
