@@ -13,11 +13,11 @@ public class TestClock {
             System.out.println("시간을 입력 하시오 : 시 분");
             int hour = scan.nextInt();
             int minute = scan.nextInt();
-            if(hour<0 && hour>12) {
+            if(hour<0 | hour>12) {
                 System.out.println("잘못된 \"시간\" 값");
                 break;
             }
-            if(minute<0 && minute>60){
+            if(minute<0 | minute>60){
                 System.out.println("잘못된 \"분\" 값");
                 break;
             }
